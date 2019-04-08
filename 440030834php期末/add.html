@@ -1,0 +1,66 @@
+﻿<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=big5">
+		<title>建立帳戶</title>
+	</head>
+	<body background="2017-1.jpg">
+		<form action="add.php" method="POST" name="myform">
+		<table border="2" align="center" border color="#6666FF">
+		<tr>
+			<td align="center" colspan="2" bgcolor="#6666FF">
+				<font color="#FFFFFF">請填入下列資料</font>
+			</td>
+		</tr>
+		<tr bgcolor="#99FF99">
+			<td align="right" >會員帳號:</td>
+			<td><input type="text" name="account" size="15"/>(請使用英文或數字)</td>
+		</tr>
+		<tr bgcolor="#99FF99">
+			<td align="right">會員密碼:</td>
+			<td><input type="password" name="password" size="15"/>(請使用英文或數字)</td>
+		</tr>
+		<tr bgcolor="#99FF99">
+			<td align="right">密碼確認:</td>
+			<td><input type="password" name="re-password" size="15"/>(請再一次輸入密碼)</td>
+		</tr>
+		<tr bgcolor="#99FF99">
+			<td align="right">姓名:</td>
+			<td><input type="text" name="name" size="8"/></td>
+		</tr>
+		<tr bgcolor="#99FF99">
+			<td align="right">姓別:</td>
+			<td>
+			<input type="radio" name="sex" value="男" checked>
+			男
+			<input type="radio" name="sex" value="女">
+			女
+			</td>
+		</tr>
+		<tr bgcolor="#99FF99">
+			<td align="right">生日:</td>
+			<td>民國
+			<input type="text" name="year" size="2"/>
+			年
+			<input type="text" name="month" size="2"/>
+			月
+			<input type="text" name="day" size="2"/>
+			日
+			</td>
+		</tr>
+		<tr bgcolor="#99FF99">
+			<td align="right">行動電話:</td>
+			<td><input type="text" name="phone" size="20"/></td>
+		</tr>
+		<tr bgcolor="#99FF99">
+			<td align="right">地址:</td>
+			<td><input type="text" name="address" size="45"/></td>
+		</tr>
+		<tr bgcolor="#99FF99">
+			<td align="center" colspan="2">
+			<input type="button" value="送出" onClick="submit()"/>
+			</td>
+		</tr>
+		</table>
+		</form>
+	</body>
+</html>
